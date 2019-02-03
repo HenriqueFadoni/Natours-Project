@@ -78,7 +78,15 @@ body {
   display: inline-block;
   background-image: linear-gradient(to right, #7ed56f, #28b485);
   -webkit-background-clip: text;
-  color: transparent; }
+  color: transparent;
+  letter-spacing: 2px;
+  transition: all .2s; }
+  .heanding-secondary:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+.u-center-text {
+  text-align: center; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
